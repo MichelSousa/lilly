@@ -8,7 +8,7 @@ h2 {	font-size: 1.4em;	margin: 0 0 8px 0;}
 h3 {	font-size: 1.1em;	margin-bottom: 6px;}
 h4 {	font-size: 1.1em;	margin-bottom: 4px;}
 img, img a {	border: 0;}
-ul, ol {	margin: 0 0 10px 30px;}
+ul, ol {	}
 li {	margin: 0;	margin-bottom: 2px;	padding: 0;}
 blockquote { border:1px dashed #ccc; margin:2px 2px 2px 0; padding:10px 10px 10px 5px;}
 select option {	padding: 0 10px;}

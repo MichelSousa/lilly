@@ -1,320 +1,630 @@
-<style type="text/css">
-.Header center .TabelaTopo table tr td .Telefone {
-	color: #000;
-	text-align: center;
-}
-.Header center .TabelaTopo table tr td .Telefone {
-	text-align: left;
-}
-.Header center .TabelaTopo table tr td .Telefone {
-	font-weight: bold;
-}
-</style>
-<div id="AjaxLoading"><img src="%%GLOBAL_IMG_PATH%%/ajax-loader.gif" alt="" />&nbsp; %%LNG_LoadingPleaseWait%%</div>
-		<div class="TopMenu">
-		 <ul>
-		     <li class="First" style="margin-right:70px;">
-			   <a href="http://127.0.0.1:8888/Loja/areadecliente.php">SAC: 11. 2924-9804</a>
-			 </li>
-			 <li class="First" style="display:">
-			   <a href="http://127.0.0.1:8888/Loja/areadecliente.php">Chat online</a>
-			 </li>
-			 <li class="First" style="display:">
-			   <a href="%%GLOBAL_ShopPath%%/login.php?from=areadecliente.php%3Faction%3Dorder_status">Meus pedidos</a>
-			 </li>
-			 <li class="First" style="display:">
-			   <a href="%%GLOBAL_ShopPath%%/login.php?from=areadecliente.php%3Faction%3D">Minha conta</a>
-			 </li>
-			 <li class="First" style="display:">
-			   <a href="%%GLOBAL_ShopPath%%">Fale conosco</a>
-			 </li>
-			 
-		 </ul>	 
-		</div>
-
-<div class="Header">
-	<center>
-	<div class="TabelaTopo">
-      <table width="112%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td  class="Logo">%%GLOBAL_HeaderLogo%%</td>
-		  
-          <td width="1500px" id="login">
-		   <span style="position: relative; top: 50px; left: 30px; background: url('%%GLOBAL_ShopPath%%/templates/LX04SemScroll/images/bg-busca.png') no-repeat; height: 60px; float: left; width: 490px;"> %%Panel.HeaderSearch%%</span>
-		   <p style="clear:both;color:#FFFFFF;position: relative; top: 40px; font-size:13px;left:30px;">Olá, seja bem vindo(a)!!! Faça <a href="%%GLOBAL_ShopPath%%/login.php">login</a> ou <a href="%%GLOBAL_ShopPath%%/login.php?action=create_account">cadastre-se</a></p>
-          </td>
-		   <td>
-		   <span style="position:relative;top:35px"><img src="%%GLOBAL_IMG_PATH%%/bg-cesta.png">
-		   <li style="list-style:none;display:%%GLOBAL_HideCartOptions%%;position:relative;top:-25px;left:65px" class="CartLink">
-		       <a style="color:#058682;text-decoration:none;font-size:12px;" href="%%GLOBAL_ShopPathNormal%%/compras.php">%%LNG_ViewCart%% <span>%%GLOBAL_CartItems%%</span></a></li>
-		   </span>
-          </td>
-		   <td>
-		   <span style="position:relative;top:37px"><img src="%%GLOBAL_IMG_PATH%%/bg-atendimento.png"></span>
-          </td>
-        </tr>
-        
-      </table>
-	  
-	  
-	</div>
-    
-    </center>
-</div>
-
-
-
-
- 
-	
-	
-
-
- 	<div class="Departamentos">
-	
-	  <nav id="menu_nav">
-	  
-	
-		
-		 <ul class="nav">
-		 
-		  <li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Modeladores</a>
-		  <ul>
-		 
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Modeladores/Body/">Body</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Modeladores/Corsets-%28cintas%29/">Corsets (cintas)</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Modeladores/Calcinhas-e-bermudas/">Calcinhas e bermudas</a>
-		    </li>
-			
-	     </ul>
-		 
-		  </li>
-		  
-		   <li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Noite</a>
-		  <ul>
-		 
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Noite/Espartilho/">Espartilho</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Noite/Body/">Body</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Noite/Camisolas/">Camisolas</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Noite/Corpetes-/">Corpetes</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Noite/Noivas/">Noivas</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Noite/Plus-Size/">Plus Size</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Noite/Robes-/">Robes</a>
-		    </li>
-			
-	     </ul>
-		 
-		  </li>
-		  
-		  <li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Plus Size</a>
-		  <ul>
-		 
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Noite/">Noite</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Body/">Body</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Calcinhas/">Calcinhas</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Conjuntos/">Conjuntos</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Meias/">Meias</a>
-		    </li>
-				<li>
-		     <a href="dollsbox.com.br/categoria/Plus-Size/Modeladores/">Modeladores</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Suti%E3s/">Sitiãs</a>
-		    </li>
-			
-	     </ul>
-		 
-		  </li>
-		 
-		 <li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/">Boutique Erótica</a>
-		  <ul>
-		 
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Luvas/">Luvas</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Meias/">Meias</a>
-		    </li>
-				
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Tapa-Mamilos/">Tapa Mamilos</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/C%EDlios/">Cilíos</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Brincadeiras/">Brincadeiras</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Cosm%E9ticos/">Cosméticos</a>
-		    </li>
-			
-			  </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Desenvolvedores/">Desenvolvedores</a>
-		    </li>
-			
-			  </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Fantasias/">Fantasias</a>
-		    </li>
-			
-			  </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Fetiche-e-Sado/">Feitiches e Sado</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/P%EAnis/">Pênis</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Plugs/">Plugs</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Preservativos/">Preservativos</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Pr%F3teses/">Próteses</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Velas/">Velas</a>
-		    </li>
-				<li>
-		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Vibradores/">Vibradores</a>
-		    </li>
-			
-	     </ul>
-		 
-		  </li>
-		 
-		 
-			 <li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Calcinhas</a>
-		  <ul>
-		 
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Calesson/">Calesson</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Plus-size/#">Plus size</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Sem-costura/">Sem costura</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/String/">String</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Algod%E3o/">Algodão</a>
-		    </li>
-			
-			
-			
-	     </ul>
-		 
-		  </li>
-		  
-		    <li>
-		     <a href="http://dollsbox.com.br/categoria/Conjuntos/">Conjuntos</a>
-		  <ul>
-		 
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Conjuntos/B%E1sicos/">Básicos</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Conjuntos/Noite-%26-Luxo-/">Noite & Luxo</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Conjuntos/Plus-Size-/">Plus Size</a>
-		    </li>
-			
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Conjuntos/Tomara-que-caia/">Tomara que caia</a>
-		    </li>
-			
-			
-			
-			
-	     </ul>
-		 
-		  </li>
-		  
-		    <li>
-		     <a href="http://dollsbox.com.br/categoria/Outlet/">Outlet</a>
-			 <ul>
-			   <li>
-		     <a href="http://dollsbox.com.br/categoria/Outlet/Conjuntos/">Conjuntos</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Outlet/Calcinhas/">Calcinhas</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Outlet/Camisolas/">Camisolas</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Outlet/Corpetes-e-corselets/">Carpetes e corselets</a>
-		    </li>
-			 </ul>
-		    </li>
-			
-		    <li>
-		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/">Sutiã</a>
-		    <ul>
-			   <li>
-		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/Al%E7as-multifuncionais/">Alças multifuncionais </a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/B%E1sicos/">Básicos</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/Plus-Size-/">Plus Size</a>
-		    </li>
-			<li>
-		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/Tomara-que-caia-/">Tomara que caia</a>
-		    </li>
-			 </ul>
-		  
-	     </ul>	
-		 
-		</nav>
-		
-	   </div>
- 
-      
+<style type="text/css">
+
+.Header center .TabelaTopo table tr td .Telefone {
+
+	color: #000;
+
+	text-align: center;
+
+}
+
+.Header center .TabelaTopo table tr td .Telefone {
+
+	text-align: left;
+
+}
+
+.Header center .TabelaTopo table tr td .Telefone {
+
+	font-weight: bold;
+
+}
+
+</style>
+
+<div id="AjaxLoading">
+
+	  <img src="%%GLOBAL_IMG_PATH%%/ajax-loader.gif" alt="" />&nbsp; %%LNG_LoadingPleaseWait%%</div>
+
+
+
+
+
+<div class="Header">
+  
+	<center>
+
+	<div class="TabelaTopo">
+
+		<div class="TopMenu">
+
+		 <ul>
+
+		     <li class="First">
+
+ 				<a href="%%GLOBAL_ShopPath%%/login.php">login</a> 
+
+			 </li>
+
+			 <li class="First">
+
+			    <a href="%%GLOBAL_ShopPath%%/login.php?action=create_account">cadastre-se</a>
+
+			 </li>
+
+        
+         </ul>	 
+
+		</div>
+
+		  <div class="container">
+
+         	 <ul class="nav-menu">
+
+		     <li class="First">
+
+ 				<a href="%%GLOBAL_ShopPath%%/login.php">login</a> 
+
+			 </li>
+
+			 <li class="First">
+
+			    <a href="%%GLOBAL_ShopPath%%/login.php?action=create_account">cadastre-se</a>
+
+			 </li>
+
+        
+         </ul>	 <!-- end nav-->
+
+
+       
+        	
+          <div class="Logo">%%GLOBAL_HeaderLogo%%</div>
+
+ 		
+
+		 <ul class="nav-menu">
+
+		     <li class="First">
+
+ 				<a href="%%GLOBAL_ShopPath%%/login.php">login</a> 
+
+			 </li>
+
+			 <li class="First" style="display:">
+
+			    <a href="%%GLOBAL_ShopPath%%/login.php?action=create_account">cadastre-se</a>
+
+			 </li>
+
+        
+         </ul>	 <!-- end nav-->
+ 		 
+
+	  
+
+	  
+	    </div> <!-- end container-->
+
+	</div>
+
+    
+
+    </center>
+
+</div>
+
+
+
+
+
+
+
+
+
+ 
+
+	
+
+	
+
+
+
+
+
+ 	<div class="Departamentos">
+
+	
+
+	  <nav id="menu_nav">
+
+	  
+
+	
+
+		
+
+		 <ul class="nav">
+
+		 
+
+		  <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Modeladores</a>
+
+		  <ul>
+
+		 
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Modeladores/Body/">Body</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Modeladores/Corsets-%28cintas%29/">Corsets (cintas)</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Modeladores/Calcinhas-e-bermudas/">Calcinhas e bermudas</a>
+
+		    </li>
+
+			
+
+	     </ul>
+
+		 
+
+		  </li>
+
+		  
+
+		   <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Noite</a>
+
+		  <ul>
+
+		 
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Noite/Espartilho/">Espartilho</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Noite/Body/">Body</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Noite/Camisolas/">Camisolas</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Noite/Corpetes-/">Corpetes</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Noite/Noivas/">Noivas</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Noite/Plus-Size/">Plus Size</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Noite/Robes-/">Robes</a>
+
+		    </li>
+
+			
+
+	     </ul>
+
+		 
+
+		  </li>
+
+		  
+
+		  <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Plus Size</a>
+
+		  <ul>
+
+		 
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Noite/">Noite</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Body/">Body</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Calcinhas/">Calcinhas</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Conjuntos/">Conjuntos</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Meias/">Meias</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="dollsbox.com.br/categoria/Plus-Size/Modeladores/">Modeladores</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Plus-Size/Suti%E3s/">Sitiãs</a>
+
+		    </li>
+
+			
+
+	     </ul>
+
+		 
+
+		  </li>
+
+		 
+
+		 <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/">Boutique Erótica</a>
+
+		  <ul>
+
+		 
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Luvas/">Luvas</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Meias/">Meias</a>
+
+		    </li>
+
+				
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Tapa-Mamilos/">Tapa Mamilos</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/C%EDlios/">Cilíos</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Brincadeiras/">Brincadeiras</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Cosm%E9ticos/">Cosméticos</a>
+
+		    </li>
+
+			
+
+			  </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Desenvolvedores/">Desenvolvedores</a>
+
+		    </li>
+
+			
+
+			  </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Fantasias/">Fantasias</a>
+
+		    </li>
+
+			
+
+			  </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Fetiche-e-Sado/">Feitiches e Sado</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/P%EAnis/">Pênis</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Plugs/">Plugs</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Preservativos/">Preservativos</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Pr%F3teses/">Próteses</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Velas/">Velas</a>
+
+		    </li>
+
+				<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Boutique-Er%F3tica/Vibradores/">Vibradores</a>
+
+		    </li>
+
+			
+
+	     </ul>
+
+		 
+
+		  </li>
+
+		 
+
+		 
+
+			 <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/">Calcinhas</a>
+
+		  <ul>
+
+		 
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Calesson/">Calesson</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Plus-size/#">Plus size</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Sem-costura/">Sem costura</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/String/">String</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Calcinhas/Algod%E3o/">Algodão</a>
+
+		    </li>
+
+			
+
+			
+
+			
+
+	     </ul>
+
+		 
+
+		  </li>
+
+		  
+
+		    <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Conjuntos/">Conjuntos</a>
+
+		  <ul>
+
+		 
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Conjuntos/B%E1sicos/">Básicos</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Conjuntos/Noite-%26-Luxo-/">Noite & Luxo</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Conjuntos/Plus-Size-/">Plus Size</a>
+
+		    </li>
+
+			
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Conjuntos/Tomara-que-caia/">Tomara que caia</a>
+
+		    </li>
+
+			
+
+			
+
+			
+
+			
+
+	     </ul>
+
+		 
+
+		  </li>
+
+		  
+
+		    <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Outlet/">Outlet</a>
+
+			 <ul>
+
+			   <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Outlet/Conjuntos/">Conjuntos</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Outlet/Calcinhas/">Calcinhas</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Outlet/Camisolas/">Camisolas</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Outlet/Corpetes-e-corselets/">Carpetes e corselets</a>
+
+		    </li>
+
+			 </ul>
+
+		    </li>
+
+			
+
+		    <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/">Sutiã</a>
+
+		    <ul>
+
+			   <li>
+
+		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/Al%E7as-multifuncionais/">Alças multifuncionais </a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/B%E1sicos/">Básicos</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/Plus-Size-/">Plus Size</a>
+
+		    </li>
+
+			<li>
+
+		     <a href="http://dollsbox.com.br/categoria/Suti%E3s/Tomara-que-caia-/">Tomara que caia</a>
+
+		    </li>
+
+			 </ul>
+
+		  
+
+	     </ul>	
+
+		 
+
+		</nav>
+
+		
+
+	   </div>
+
+ 
+
+      
+

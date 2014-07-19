@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+%%Panel.HTMLHead%%
+<body>
+<div id="Container">
+	%%Panel.Header%%
+   <div id="wrap-banner">  
+ 
+   <div id="main"> 
+    <div id="banner">
+	<link rel="stylesheet" href="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/styles/topo.css" type="text/css" media="screen" />
+	
+	<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="%%GLOBAL_IMG_PATH%%/bg-slide.gif" data-thumb="%%GLOBAL_IMG_PATH%%/bg-slide.gif" alt="" />
+                
+            </div>
+            
+        </div>
+
+    </div>
+    <script type="text/javascript" src="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="%%GLOBAL_ShopPath%%/templates/LX04SemScroll/scripts/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	
+	</div> 
+</div>	
+</div>
+
+ <div id="main"> 
+  <div id="box">
+	 <div id="desconto">
+		<img src="%%GLOBAL_IMG_PATH%%/bg-desconto.png">
+	</div> 
+	
+	 <div id="promo">
+		<img src="%%GLOBAL_IMG_PATH%%/bg-new-produtos.png">
+	</div> 
+    
+	<div id="Wrapper">
+		%%Panel.WrapperBanner%%
+        %%Banner.TopBanner%%
+		
+       
+		<div class="Content" id="LayoutColumn2">
+			
+            <div id="divTC" class="divTabControl">
+           
+			
+                <div class="divTabArea" id='div2'>
+                    <ul class="ProdutosListagem">
+                   		%%Panel.HomeFeaturedProducts%%
+                    </ul>
+                </div>
+                <div class="divTabArea" id='div3'>
+                  <ul class="ProdutosListagem">
+                   		%%Panel.SidePopularProducts%%
+                  </ul>
+                </div>
+                <div class="divTabArea" id='div4'>
+                     <ul class="MaisvendidosABAHOME">
+                      	%%Panel.SideTopSellers%%
+                    </ul>
+                </div>
+        </div>
+                           
+
+    
+   </div>   
+    
+            <hr />
+			%%Panel.HomeNewProducts%%
+			%%Panel.HomeRecentBlogs%%
+			%%Banner.BottomBanner%%
+		</div>
+		
+		<br class="Clear" />
+	</div>   </div>   
+	%%Panel.Footer%%
+</div>
+</body>
+</html>

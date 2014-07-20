@@ -57,7 +57,7 @@
 
 
 
-.Departamentos { 	line-height:40px; height:53px;text-align:center;text-align:center;}
+.Departamentos { 	line-height:40px; height:53px;text-align:center;text-align:center;background: #000000}
 
 .Departamentos * { }
 
@@ -89,9 +89,12 @@
 
 }
 
+#banner
+{
+    clear: both;
+}
 
-
-.Departamentos a {   border-right: 1px solid #8F8E8E;
+.Departamentos a {  
 
     color: #FFFFFF;
 
@@ -174,147 +177,6 @@
 	text-decoration: none;
 
 }
-
-
-
-
-
-#menu_nav li {
-
-    display: inline;
-
-    float: left;
-
-  
-
-    padding: 5px 0 4px 3px;
-
-    position: relative;
-
-}
-
-ul.nav li ul li {
-
-    clear: both;
-
-    float: none;
-
-}
-
-
-
-/*================*/
-
-
-
-ul.nav li:hover ul, ul.nav li.hover ul {
-
-    display: block;
-
-}
-
-ul.nav li ul li a {
-
-    clear: both;
-
-}
-
-
-
-ul.nav li ul li a {
-
-    
-
-    float: none;
-
-    margin-bottom: 3px;
-
-    margin-left: -9px;
-
-    padding-bottom: 3px;
-
-    text-align: left !important;
-
-    width: 230px !important;
-
-	
-
-}
-
- 
-
- ul.nav li ul li a:hover {
-
-    color: #282828;	
-
-}
-
-
-
-ul.nav li {
-
-    float: left !important;
-
-    position: relative !important;
-
-}
-
-ul.nav li a {
-
-    color: #FFFFFF;
-
-    display: block !important;
-
-    float: left;
-
-    text-decoration: none !important;
-
-}
-
-
-
-ul.nav li ul {
-
-    display: none;
-
-    left: 0;
-
-    overflow: hidden;
-
-    position: relative;
-
-    top: 10px;
-
-    z-index: 99 !important;
-
-}
-
-
-
-
-
-ul.nav li ul {
-
-    background: none repeat scroll 0 0 #058682;
-
-    width: 180px !important;
-
-	position: absolute;
-
-    top: 53px;
-
-}
-
-
-
- 
-
- /*==================================*/
-
- 
-
-
-
 
 
 #desconto img,
@@ -472,7 +334,15 @@ li
     font-size:11px; 
     color:#A59E50; 
     padding-right:7px;
-    text-decoration:none
+    text-decoration:none;
+    transition:1s all;
+    -webkit-transition:1s all;
+    -moz-transition:1s all;
+}
+
+.TopMenu a:hover
+{
+    color: #fff;
 }
 
 .TopMenu {  
@@ -509,7 +379,18 @@ li
     color:#fff;
     text-decoration: none;
     padding-right: 22px;
+    transition:1s all;
+    -webkit-transition:1s all;
+    -moz-transition:1s all;
+
 }
+
+.nav-menu li a:hover
+{
+    color: #a59e50;
+} 
+
+
 
 .nav-menu li a:last-child
 {
@@ -529,4 +410,12 @@ li
     width: 775px;
     margin: 0 auto;
     clear: both;
+}
+
+.cesta
+{
+    float: right;
+    position: relative;
+    top: -50px;
+    width: 150px;
 }

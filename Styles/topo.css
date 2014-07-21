@@ -69,7 +69,8 @@
 
 {
 
-  width:1085px;margin:0 auto;
+  width:990px;
+  margin:0 auto;
 
 }
 
@@ -91,8 +92,12 @@
 
 #banner
 {
+   
     clear: both;
+    float: right;
+    width: 700px;
 }
+
 
 .Departamentos a {  
 
@@ -207,7 +212,6 @@
 
  clear:both;
 
- width: 1276px;
 
 }
 
@@ -391,6 +395,57 @@ li
 } 
 
 
+.sidebar
+{
+    width: 200px;
+    background: #181818;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;  
+    padding: 10px;
+}
+
+.sidebar h1
+{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;;
+    font-size: 20px;
+    margin:15px 0px 15px 0px;
+
+}
+
+.sidebar
+{
+      float: left;
+      text-align: left !important;
+      margin-bottom:30px;
+      position: relative;
+      top: -90px;
+}
+
+.sidebar ul li a 
+{
+    background: #454545;
+    padding: 5px 0px 5px 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+     transition:1s all;
+    -webkit-transition:1s all;
+    -moz-transition:1s all;
+    width: 95%;
+    font-size:14px;
+    text-transform: uppercase;
+
+}
+
+.sidebar ul li a:hover
+{
+    background: #a59e50;
+
+}
 
 .nav-menu li a:last-child
 {
@@ -418,4 +473,63 @@ li
     position: relative;
     top: -50px;
     width: 150px;
+}
+
+.bottom-top
+{
+   height: 40px;
+   background: #513327;
+   clear: both;
+}
+
+.bottom-top ul
+{
+    margin-left: 40px;
+}
+
+.bottom-top li
+{
+    display: inline;
+    margin-right: 20px;
+    float: left;
+}
+
+.bottom-top img
+{
+    float: left;
+    margin-right: 20px;
+}
+
+.bottom-top span
+{
+    float: left;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+}
+
+.bottom-top ul
+{
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.bottom-top p
+{
+    clear: both;
+}
+
+.footer
+{
+    margin-top: 30px;
+    color:#000;
+    margin: 0 auto;
+    width: 990px;
+    margin-top: 30px;
+}
+
+.copyright
+{
+    top: 30px;
+    position: relative;
 }

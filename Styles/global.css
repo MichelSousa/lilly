@@ -137,11 +137,13 @@ color: #484747;
 
     text-align: center;
 
-    width: 260px;}
+    width: 260px;
+    margin-bottom: 50px;
+    }
 
 .ProdutosListagem li strike { font-weight:normal; font-size:11px; font-weight:bold; color:#484747; float:left; width:100%}
 
-.ProdutosListagem li em  { font-style:normal; font-weight:bold; font-size:18px; color:#2E978F; float:left; width:100% }
+.ProdutosListagem li em  { font-style:normal; font-weight:bold; font-size:18px; color:#999999; float:left; width:100% }
 
 .ProdutosListagem li em b { color:#ed3006}
 
@@ -323,7 +325,7 @@ color: #484747;
 
 .center940 { width:940px; margin:auto }
 
-.Footer { background:url(../img/bg-footer.png) repeat-x; height:155px; color:#FFF }
+.Footer { height:155px; color:#FFF }
 
 .Footer .FooterContent { height:130px; background-position:left; background-repeat:no-repeat }
 
@@ -1009,7 +1011,7 @@ a.ChangeLink {
 
 {
 
-  background:#F3F3F3;
+
 
   padding:10px 0px;
 
@@ -1075,7 +1077,7 @@ a.ChangeLink {
 
 {
 
- color:#494949 !important;
+ color:#0E0D15 !important;
 
 }
 
@@ -1155,7 +1157,7 @@ a.ChangeLink {
 
   margin:0 auto;
 
-  width:1300px;
+  width:930px
 
 }
 
@@ -1201,9 +1203,8 @@ a.ChangeLink {
 
 {
 
-   background:#011117;
-
-   height:295px;
+   background:#fff;
+    clear: both;
 
 }
 
